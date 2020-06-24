@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{B85FF4DA-1F7C-453F-96A3-2CF361B8C96B}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{9706760B-3078-451B-B7BA-76FAB3DD78CF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -48,7 +48,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{5DF2F985-34FA-45E9-96D0-89514C5C14DA}"
-          SQLTask:SqlStatementSource="insert into dbo.employees&#xA;(EmployeeID, EmployeeName)&#xA;values ('234','Gary')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="insert into dbo.employees&#xA;(EmployeeID, EmployeeName)&#xA;values &#xA;('234','Gary'),&#xA;('345','Diana'),&#xA;('456','Curtis'),&#xA;('567','Tegan')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
