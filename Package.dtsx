@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/23/2020 9:38:41 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SBCI-1902"
+  DTS:CreatorName="SBCI\gavin"
+  DTS:DTSID="{FAF7E3F1-12F4-4BBC-9143-873710BB419E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.94"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{3F49959B-37E6-4D9A-A1CA-B65342A25AB6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
